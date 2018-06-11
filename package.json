@@ -18,6 +18,7 @@
   "homepage": "https://github.com/VoxFeed/fixtures-generator#readme",
   "dependencies": {
     "json-schema-faker": "^0.5.0-rc15",
+    "jsonschema": "^1.2.4",
     "lodash": "^4.17.10",
     "mongodb": "^3.0.10",
     "schemas": "git+ssh://git@github.com:VoxFeed/VoxFeed_Schemas.git"
