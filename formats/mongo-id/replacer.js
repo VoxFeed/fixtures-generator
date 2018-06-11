@@ -1,3 +1,3 @@
-const {ObjectId} = require('mongodb');
+const ObjectId = require('bson-objectid');
 
 module.exports = (value) => new ObjectId(value);

@@ -1,4 +1,4 @@
-const {ObjectId} = require('mongodb');
+const ObjectId = require('bson-objectid');
 const FORMAT_NAME = require('./name');
 const wrapReplacer = require('../utils/wrap-replacer');
 
