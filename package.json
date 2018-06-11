@@ -1,0 +1,25 @@
+{
+  "name": "fixtures-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoxFeed/fixtures-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoxFeed/fixtures-generator/issues"
+  },
+  "homepage": "https://github.com/VoxFeed/fixtures-generator#readme",
+  "dependencies": {
+    "json-schema-faker": "^0.5.0-rc15",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.0.10",
+    "schemas": "git+ssh://git@github.com:VoxFeed/VoxFeed_Schemas.git"
+  }
+}
