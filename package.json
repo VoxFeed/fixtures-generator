@@ -4,7 +4,7 @@
   "description": "",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test --recursive"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   "homepage": "https://github.com/VoxFeed/fixtures-generator#readme",
   "dependencies": {
     "bson-objectid": "^1.2.3",
+    "chai": "^4.1.2",
     "json-schema-faker": "^0.5.0-rc15",
     "jsonschema": "^1.2.4",
     "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
     "schemas": "git+ssh://git@github.com:VoxFeed/VoxFeed_Schemas.git"
   }
 }

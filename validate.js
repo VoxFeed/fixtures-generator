@@ -11,6 +11,7 @@ const overwriteSchema = {
 const validateFixture = (initialSchema, fixture) => {
   const instance = convertToStrings(fixture);
   const schema = Object.assign({}, initialSchema, overwriteSchema);
+
   const results = validate(instance, schema, options);
 
   if (hasErrors(results)) return handleErrors(results);
