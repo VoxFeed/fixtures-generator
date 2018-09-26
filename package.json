@@ -23,6 +23,6 @@
     "jsonschema": "^1.2.4",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
-    "schemas": "git+ssh://git@github.com:VoxFeed/VoxFeed_Schemas.git"
+    "vf-schemas": "git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git"
   }
 }
