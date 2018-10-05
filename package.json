@@ -2,7 +2,7 @@
   "name": "fixtures-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "generate.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha test --recursive"
   },
