@@ -1,11 +1,11 @@
 const {isArray, isInteger, mergeWith} = require('lodash');
-const schemas = require('vf-schemas');
 const schemaFaker = require('./schema-faker');
 const validateFixture = require('./validate');
 const replaceFormats = require('./replace-formats');
 
 const generateFixtures = (schemas, params) => {
   const {type} = params;
+  if (!type) throw new Error('type is not defined')
   const schema = schemas[type];
 
   validateParams(params);
