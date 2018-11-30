@@ -19,7 +19,7 @@
   "dependencies": {
     "bson-objectid": "^1.2.3",
     "chai": "^4.1.2",
-    "json-schema-faker": "^0.5.0-rc15",
+    "json-schema-faker": "https://github.com/voxfeed/json-schema-faker#bugfix-min-items",
     "jsonschema": "^1.2.4",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
