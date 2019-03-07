@@ -2,9 +2,10 @@
   "name": "fixtures-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/Generator.js",
   "scripts": {
-    "test": "mocha test --recursive"
+    "test": "mocha test --recursive",
+    "build": "npx babel lib --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,18 @@
   },
   "homepage": "https://github.com/VoxFeed/fixtures-generator#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "bson-objectid": "^1.2.3",
     "chai": "^4.1.2",
     "json-schema-faker": "https://github.com/voxfeed/json-schema-faker#bugfix-min-items",
     "jsonschema": "^1.2.4",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
-    "vf-schemas": "git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git"
+    "vf-schemas": "git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git#master"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
   }
 }

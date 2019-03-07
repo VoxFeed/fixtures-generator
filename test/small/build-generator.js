@@ -1,6 +1,6 @@
 const chai = require('chai');
 const {expect} = chai;
-const Generator = require('../../index')
+const Generator = require('../../lib/Generator')
 
 describe('Build generator instance', () => {
   const schemas = {
@@ -20,7 +20,7 @@ describe('Build generator instance', () => {
       properties: {
         name: {
           type: 'string',
-  
+
         }
       }
     }
