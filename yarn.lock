@@ -2495,10 +2495,11 @@ util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-"vf-schemas@git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git":
+"vf-schemas@git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git#master":
   version "1.0.0"
-  resolved "git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git#0009b93d196a956280f89d6244fa4adfd5d956d6"
+  resolved "git+ssh://git@github.com/VoxFeed/VoxFeed_Schemas.git#390909288c493c7635d324794a38538a38fa583b"
   dependencies:
+    "@babel/polyfill" "^7.2.5"
     moment-timezone "^0.5.21"
 
 wide-align@^1.1.0:
