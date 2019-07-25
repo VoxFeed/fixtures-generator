@@ -1,7 +1,7 @@
 {
   "name": "fixtures-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creates random fixtures and validate them. Useful when writing tests.",
   "main": "dist/Generator.js",
   "scripts": {
     "test": "mocha test --recursive",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/VoxFeed/fixtures-generator.git"
   },
-  "author": "",
+  "author": "VoxFeed, Inc.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VoxFeed/fixtures-generator/issues"
