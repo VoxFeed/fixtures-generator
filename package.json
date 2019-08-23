@@ -1,6 +1,6 @@
 {
   "name": "fixtures-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates random fixtures and validate them. Useful when writing tests.",
   "main": "dist/Generator.js",
   "scripts": {

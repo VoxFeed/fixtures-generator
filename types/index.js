@@ -1,0 +1,20 @@
+module.exports = {
+  ARRAY: require('./array'),
+  BOOLEAN: require('./boolean'),
+  DATE: require('./date'),
+  EMAIL: require('./email'),
+  ENUM: require('./enum'),
+  FLOAT: require('./float'),
+  ID: require('./id'),
+  MD5: require('./md5'),
+  INTEGER: require('./integer'),
+  MONGO_ID: require('./mongo-id'),
+  MONGO_ID_STR: require('./mongo-id-str'),
+  NULL: require('./null'),
+  OBJECT: require('./object'),
+  PHONE: require('./phone'),
+  REGEX: require('./regex'),
+  STRING: require('./string'),
+  URL: require('./url'),
+  UUID: require('./uuid')
+};
